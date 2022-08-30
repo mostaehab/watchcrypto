@@ -1,0 +1,55 @@
+table {
+  margin: auto;
+  margin-bottom: 100px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+  text-align: left;
+}
+th {
+  font-size: 17px;
+  padding: 30px;
+  text-align: left;
+}
+
+td {
+  padding: 30px;
+  font-size: 15px;
+}
+
+.coin-info {
+  display: flex;
+  align-items: center;
+}
+
+.img-container {
+  width: 34px;
+  height: 34px;
+}
+
+img {
+  width: 100%;
+}
+
+.coin-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.coin-name {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rank {
+  color: rgba(000, 000, 000, 0.5);
+  font-weight: bold;
+}

@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -33,6 +38,160 @@
     transform: rotate(0deg);
   }
   to {
+    transform: rotate(360deg);
+  }
+}
+.down,
+.up {
+  font-weight: bold;
+}
+
+.down {
+  color: red;
+}
+
+.up {
+  color: green;
+}
+
+.footer {
+  background-color: #444;
+  padding: 30px;
+  color: #fff;
+  text-align: left;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.footer a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.profile-container {
+  margin: 100px 0;
+}
+
+.coin-profile {
+  padding: 20px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+}
+
+.card {
+  padding: 10px;
+}
+
+.coin-profile-info {
+  text-align: center;
+  padding: 10px;
+}
+
+.coin-bio {
+  text-align: justify;
+}
+
+.coin-profile-info img {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+
+.coin-profile-info h3 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.coin-market-data span {
+  display: block;
+  font-size: 25px;
+  text-align: left;
+}
+
+.coin-market-data h5 {
+  display: inline;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.buttons .btn-primary {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #444;
+  border: 1px solid #444;
+}
+
+.chart {
+  margin-top: 20px;
+}
+
+.chart-controller {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 8px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 10px;
+  list-style: none;
+}
+
+.chart-controller .item-active {
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.chart-controller li {
+  display: inline;
+  margin: 6px;
+  background-color: transparent;
+  padding: 6px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lds-ring {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #444 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
     transform: rotate(360deg);
   }
 }

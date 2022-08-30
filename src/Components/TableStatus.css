@@ -1,0 +1,13 @@
+.status {
+  margin: 100px 0;
+}
+
+.status h2 {
+  margin-bottom: 5px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.status span {
+  color: rgba(000, 000, 000, 0.5);
+}
